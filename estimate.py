@@ -1,25 +1,21 @@
 import math
-import random
 import unittest
 def wallis(x):
-    n = 2
+    multiplier = 2
     product = 1
     for i in range(x):
-        term = n**2 /(n**2 - 1)
+        term = multiplier**2 /(multiplier**2 - 1)
         product *= term
-        n += 2
+        multiplier += 2
 
     return 2*product
 
 
 
 
-<<<<<<< HEAD
 
 import random
 import math
-=======
->>>>>>> 1cb759ff4a6c87ee52c1d59ecb14e93028e73336
 def monte_carlo(x):
     circle_inside_points = 0
     square_inside_points = 0
@@ -69,8 +65,3 @@ class TestMC(unittest.TestCase):
     
 if __name__ == "__main__":
     unittest.main()
-
-
-    
-
-
