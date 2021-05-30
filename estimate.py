@@ -1,4 +1,5 @@
 import math
+import random
 import unittest
 def wallis(x):
     n = 2
@@ -13,9 +14,12 @@ def wallis(x):
 
 
 
+<<<<<<< HEAD
 
 import random
 import math
+=======
+>>>>>>> 1cb759ff4a6c87ee52c1d59ecb14e93028e73336
 def monte_carlo(x):
     circle_inside_points = 0
     square_inside_points = 0
